@@ -1,0 +1,42 @@
+.sidebar__channels{
+    flex:1;
+    overflow-y: scroll;
+}
+
+
+.sidebar__channels::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.sidebar__channels::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+    box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%), inset -2px -2px 2px rgb(0 0 0 / 25%);
+}
+
+.sidebar__channels::-webkit-scrollbar-track {
+    background: linear-gradient( 
+90deg
+ ,#d2d1d1,#f7f4f4 1px,#e4e2e2 0,#fff);
+}
+
+.sidebar__channelsHeaderType{
+    display: flex;
+    align-items: center;
+}
+.sidebar__channelsHeaderType>h3{
+    margin: 8px 0;
+}
+
+.sidebar__channelsHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: grey;
+}
+
+.sidebar__addchannel{
+    cursor: pointer;
+}

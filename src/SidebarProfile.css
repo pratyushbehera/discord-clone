@@ -1,0 +1,27 @@
+.sidebar__profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    background-color: #2f3135;
+    padding: 10px;
+    border-top: 1px solid grey;
+}
+
+.sidebar__profileInfo{
+    flex: 1 1;
+    padding: 10px;
+}
+
+.sidebar__profile>img{
+    cursor: pointer!important;
+}
+
+.sidebar__profileInfo>h3{
+    color:#ffffff;
+}
+
+
+.sidebar__profileInfo>p{
+    font-size: 12px;
+}

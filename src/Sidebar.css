@@ -1,0 +1,31 @@
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0.25;
+    height: 100vh;
+    background-color:#2f3135;
+}
+
+
+.sidebar_channels{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+
+@media (max-width:750px) {
+    .sidebar{
+        display:none;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+        height: 100vh;
+        background-color:#2f3135;
+    }
+
+    .display__flex{
+        display: flex;
+    }
+}
+
